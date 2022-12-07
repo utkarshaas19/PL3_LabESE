@@ -1,0 +1,136 @@
+<html>
+	<head>
+		<title>Home Page</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			.box
+			{
+				border: 1px solid none;
+				width: 100%;
+			}
+			.boxbar
+			{
+				border: 1px solid black;
+				padding: 7px;
+				background: black;
+			}
+			.boxbar address a
+			{
+				float: right;
+				text-decoration: none;
+				color: white;
+			} 
+			.boxbar i
+			{
+				color: white;
+				width: 40px;
+			}
+			.list
+			{
+				border-bottom-width: 900px;
+				border-bottom: 1px solid darkgray;
+				padding: 6px;
+				float: right;  
+			}
+			.list ul li
+			{
+				float: left;
+				text-align: center;
+				width: 70px;
+				list-style-type: none;
+			}
+			.list ul li a
+			{
+				text-decoration: none;
+				color: white;
+			}
+			.list ul li a:hover
+			{
+				border-bottom: 4px solid brown;
+				padding: 2px;
+			}
+			body
+			{
+				background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),url(laptopback.jpg)no-repeat;
+				background-size: cover;
+			}
+			h2
+			{
+				float: left;
+			}
+			.writer
+			{
+				width: 700px;
+				padding-left: 100px;
+			}
+			.writer h2 
+			{
+				font-family: titillium web, sans-serif;
+				font-size: 40px;
+				text-transform: uppercase;
+				color: white;
+				text-shadow: 1px 1px 1px;
+				padding-top: 5px;
+				line-height: 50px;
+			}
+			.writer h4
+			{
+				font-family: quicksand, sans-serif;
+				text-transform: capitalize;
+				width: 600px;
+				position: absolute;
+				top: 25%;
+				opacity: 0.6;
+                color: white;
+			}
+			.writer form input[type="submit"]
+			{
+				position: absolute;
+				top: 38%;
+				left: 7%;
+				border: none;
+				color: white;
+				background-color: crimson;
+				text-transform: uppercase;
+				padding: 10px;
+			}
+			.writer form input[type="submit"]:hover
+			{
+				background: green;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="box" style="border-color: transparent">
+
+			<div class="boxbar">
+				<address><a href="mailto:utkarshasutar19@gmail.com">utkarshasutar19@gmail.com</a></address>
+				<i class="fa fa-facebook-square" style="font-size:24px" aria-hidden="true"></i>
+				<i class="fa fa-instagram" style="font-size:24px" aria-hidden="true"></i>
+				<i class="fa fa-twitter-square" style="font-size:24px" aria-hidden="true"></i>
+				<i class="fa fa-linkedin-square" style="font-size:24px" aria-hidden="true"></i>
+				<i class="fa fa-whatsapp" style="font-size:24px" aria-hidden="true"></i>
+				<i class="fa fa-youtube-square" style="font-size:24px" aria-hidden="true"></i>
+			</div>
+
+			<div class="list">
+				<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="writer">
+				<h2>We ensure best Technology with greater efficiency</h2>
+				<h4> We need modern computing now a days; to provide efficiency to the work we are working upon. We are here with a wide range of Laptops that will change your work style and make you even more smarter</h4>
+				<form action="laptops.html" method="get">
+					<input type=submit value="Get Started" onclick="submit()">
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
